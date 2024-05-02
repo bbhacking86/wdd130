@@ -12,85 +12,100 @@
 
 
 :root { 
-    --main-bg-color: #5c7479;
-    --secondary-color: #d2dbaa;
-    --accent1-color: #ffe46c;
-    --accent2-color: #84cdca;
+    --primary-color: #5c7479;
+    --secondary-color: #c6d874;
+    --accent1-color: #fff8dbfd;
+    --accent2-color: #78e2bff1;
+    --accent3-color: #5f3535b7; 
 
-    --heading-font: 'gooddog', serif;
+    --heading-font: Arial, Helvetica, sans-serif;
+    @import url: ('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
     --paragraph-font:'var(--paragraph-font)', serif;
     max-width: 960px;
     padding: 20px;
 
-    --nav-background-color: var(--main-bg-color);
-    --nav-link-color: var(--accent2-color);
-    --nav-hover-link-color: var(--secondary-color);
-    --nav-hover-background-color: var(--main-bg-color);
+    --nav-background-color: var(--secondary-color);
+    --nav-link-color: var(--accent3-color);
+    --nav-hover-link-color: var(--accent3-color);
+    --nav-hover-background-color: var(--secondary-color);
 
 }
 
 body {
     @import url: ('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
     font-family: var(--paragraph-font);
+    content: var(--accent3-color);
+    margin: 10px; border: 30px solid var(--accent3-color);
     max-width: 960px;
-    padding: 20px;  
-    background-color: #5c7479;
+    padding: 20px;  box-decoration-break: slice;
+    background-color: var(--primary-color);
     p {
         font-family: Arial, Helvetica, sans-serif;
-        background-color: #d2dbaa;
-        padding: 25px; border-style: unset;
+        font-size: 15px;
+        background-color: var(--secondary-color);
+        padding: 25px; border-style: unset; border: 7px solid var(--accent2-color);
     }
     header {
         padding: 20px;
         
         h1 {
-           font-family: gooddog, 'Bradley Hand', cursive;
-         font-size: 126px;
-         text-align: center;
-        background-color: #d2dbaa;
-        max-width: 2000px;
-         padding: 50px; border: 20px solid #84cdca;
-        margin-bottom: 50px;
+            font-family: gooddog, 'Bradley Hand', cursive;
+            font-size: 126px;
+            text-align: center;
+            background-color: var(--secondary-color); 
+            max-width: 2000px;
+            padding: 50px; border: 20px solid var(--accent2-color);
+            margin-bottom: 50px;
+            text-shadow: 3px 3px 1px var(--primary-color);
             }
     }
-    div {
+    .one {
         background-color: var(--secondary-color);
         text-align: right;
-        padding: 20px;
+        padding: 20px; border: 10px solid var(--accent1-color);
     }
 
     h2 {
-        font-family: var(--paragraph-font), 'Bradley Hand', cursive 
-        font-size: 126px;
+        font-family: var(--paragraph-font), 'Bradley Hand', cursive; 
+        font-size: 50px;
         text-align: center;
         background-color: var(--accent1-color);
         max-width: 2000px;
-        padding: 20px;
+        padding: 20px; border: 10px solid var(--accent3-color);
     }
 
     h3 {
-        font-family: var(--paragraph-font), 'Bradley Hand', cursive 
-        font-size: 126px;
+        font-family: var(--paragraph-font), 'Bradley Hand', cursive; 
+        font-size: 25px;
         text-align: center;
         background-color: var(--accent2-color);
         max-width: 1000px;
-        padding: 20px;
-            nav {
-                background-color: var(--main-bg-color);
+        padding: 20px; border: 7px solid var(--accent3-color);
+
+        p2 {                                                                               /*What can I use instead of aside, p, article, div? */
+            font-family: gooddog, 'Bradley Hand', cursive;
+            font-size: 50px;
+            text-align: center;
+            background-color: var(--secondary-color);
+            max-width: 2000px;
+            padding: 50px; border: 20px solid var(--accent1-color);   
+        }
+            
+        nav {
+                background-color: var(--nav-background-color);
                 font-size: 1.2rem;
-                display; flex; 
+                display: flex; 
             }
+           
             nav a {
                 display: block;
-                color: var(--nav-link-color);
+                color: var(--nav-hover-link-color);
                 text-decoration: none;
                 padding: 1rem;
             }
-
-            
+     
             nav a:link, nav a:visited {
                 color: var(--nav-link-color);
-                background-color: var(--nav-hover-background-color);
             }
 
             nav a:hover {
@@ -101,30 +116,30 @@ body {
     }
 
     h4 {
-        font-family: var(--paragraph-font), 'Bradley Hand', cursive 
-        font-size: 126px;
+        font-family: var(--paragraph-font), 'Bradley Hand', cursive; 
+        font-size: 25px;
         text-align: center;
-        background-color: var(--main-bg-color);
+        background-color: var(--secondary-color);
         max-width: 1000px;
-        padding: 20px;
+        padding: 20px; border: 10px solid var(--accent3-color);
     }
 
     h5 {
-        font-family: var(--paragraph-font), 'Bradley Hand', cursive 
-        font-size: 126px;
+        font-family: var(--paragraph-font), 'Bradley Hand', cursive; 
+        font-size: 25px;
         text-align: center;
         background-color: var(--secondary-color);
         max-width: 1000px;
-        padding: 20px;
+        padding: 20px; border: 10px solid var(--accent3-color);
     }
 
     h6 {
-        font-family: var(--paragraph-font), 'Bradley Hand', cursive 
-        font-size: 126px;
+        font-family: var(--paragraph-font), 'Bradley Hand', cursive; 
+        font-size: 25px;
         text-align: center;
         background-color: var(--secondary-color);
         max-width: 1000px;
-        padding: 20px;
+        padding: 20px; border: 10px solid var(--accent3-color);
     }
 }
 
