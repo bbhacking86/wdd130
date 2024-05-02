@@ -10,6 +10,8 @@ nav a {
 h1 {
     color: rgb(111, 204, 216);
 }
+main {
+
 img {
     max-width: 150px;
     height: auto;
@@ -17,11 +19,19 @@ img {
     padding: 2pxl
     box-shadow: 10px 5px 5px yellow;
 }
-aside {
-    border: 5px dotted rgb(252, 244, 144);
-}
-
 p {
-    padding: 10px; 
+    padding: 0px; 
     content: rgb(252, 244, 144);
+}
+}
+    aside {
+    border: 5px dotted rgb(252, 244, 144);
+
+    }
+
+
+footer {
+    text-align: center;
+    margin-top: auto;
+    border-top: 5px;
 }
