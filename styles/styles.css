@@ -1,6 +1,6 @@
 nav{
     background-color: rgb(111, 204, 216);
-    padding: 10px;
+    padding: 10px; border: 5px dotted rgb(252, 244, 144);
 }
 nav a {
     color: rgb(252, 244, 144);
@@ -11,12 +11,17 @@ h1 {
     color: rgb(111, 204, 216);
 }
 img {
-    width: 150px;
+    max-width: 150px;
     height: auto;
     border: 5px solid rgb(111, 204, 216);
     padding: 2pxl
     box-shadow: 10px 5px 5px yellow;
 }
+aside {
+    border: 5px dotted rgb(252, 244, 144);
+}
+
 p {
-    padding: 10px;
+    padding: 10px; 
+    content: rgb(252, 244, 144);
 }
