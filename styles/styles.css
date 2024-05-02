@@ -1,21 +1,21 @@
 nav{
-    background-color: steelblue;
+    background-color: rgb(111, 204, 216);
     padding: 10px;
 }
 nav a {
-    color: white;
+    color: rgb(252, 244, 144);
     display: block; 
     padding: 20px;
 }
 h1 {
-    color: steelblue;
+    color: rgb(111, 204, 216);
 }
 img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 5px solid rgb(111, 204, 216);
     padding: 2pxl
-    box-shadow: 0 0 30px gray;
+    box-shadow: 10px 5px 5px yellow;
 }
 p {
     padding: 10px;
