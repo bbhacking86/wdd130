@@ -31,6 +31,11 @@
 
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color:#5c7479
+}
+
 body {
     @import url: ('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
     font-family: var(--paragraph-font);
@@ -56,7 +61,7 @@ body {
             max-width: 2000px;
             padding: 50px; border: 20px solid var(--accent2-color);
             margin-bottom: 50px;
-            text-shadow: 3px 3px 1px var(--primary-color);
+            text-shadow: 3px 3px 1px var(--accent1-color);
             }
     }
     .one {
@@ -82,7 +87,7 @@ body {
         max-width: 1000px;
         padding: 20px; border: 7px solid var(--accent3-color);
 
-        p2 {                                                                               /*What can I use instead of aside, p, article, div? */
+        p {                                                                               /*Wanted this for my website logo */
             font-family: gooddog, 'Bradley Hand', cursive;
             font-size: 50px;
             text-align: center;
