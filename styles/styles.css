@@ -38,25 +38,25 @@ main {
     max-width: 960px; 
         }
 
-    .profile {
+    main img {
         float: right;
         height: auto;
-        border: 10px solid rgb(64, 224, 208);
+        border: 10px dotted rgb(252, 244, 144);
         padding: 10px;
-        box-shadow: 0px 0px 30px yellow;
+        box-shadow: 0px 0px 5px rgb(252, 244, 144)
     }        
     
-         .aside img {
+         aside  {
             position: relative;
-            width: 300px;
+            width: 200px;
             height: auto;
             } 
 
          aside  h2 {
                 color: rgb(252, 244, 144);
                 position: absolute;
-                top: 620px;
-                left: 150px;
+                top: 5px;
+                left: 90px;
             } 
 img {
                  width: 12rem;
