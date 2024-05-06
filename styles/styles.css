@@ -1,3 +1,9 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 nav{
     background-color: rgb(64, 224, 208);
     padding: 10px; border: 5px dotted rgb(252, 244, 144);
@@ -13,46 +19,57 @@ h1 {
 }
 
 p {
-    padding: 0px; 
-    content: rgb(74, 63, 162); 
+    padding: 0; 
+    color: rgb(74, 63, 162); 
 }
 main {
     max-width: 960px; 
         }
-.main  img {
-        max-width: 200px;
+
+    .profile {
+        float: right;
         height: auto;
-        border: 50px solid rgb(64, 224, 208);
-        padding: 50px;
+        border: 10px solid rgb(64, 224, 208);
+        padding: 10px;
         box-shadow: 0px 0px 30px yellow;
-    }     
-       
-    }     
+    }        
     
          .aside img {
-                    width: 200px;
-                    height: auto;
-                    }  
-         aside{  
-                width: 20rem;
+            position: relative;
+            width: 200px;
+            height: auto;
+            }  
+         aside  h2 {
+                color: rgb(252, 244, 144);
+                position: absolute;
+                top: 385px;
+                left: 150px;
+            } 
+img {
+               width: 20rem;
                 margin: 1rem;
                 border: 5px dotted rgb(252, 244, 144);
                 padding: 1rem;
                 background-color: rgb(64, 224, 208);
                 color: rgb(74, 63, 162);
                 text-align: center;
-                    }
-               
-                p {
-                    padding: 0px; 
-                    content: rgb(74, 63, 162); 
-               }
-    
 }
-
+               
+p {
+padding: 0; 
+color: rgb(74, 63, 162); 
+}
+    
+/*Class Selectors
+.box {
+    margin: 1rem;
+    border: 5px solid rgb(252, 244, 144);
+    padding: 1rem;
+    background-color: rgb(74, 63, 162);*/
 
 footer {
     text-align: center;
     margin-top: auto;
     border-top: 5px;
 }
+
