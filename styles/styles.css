@@ -1,6 +1,6 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -53,8 +53,8 @@ aside  {
 } 
 
 aside  h2 {
+                position: absolute; 
                 color: rgb(252, 244, 144);
-                position: absolute;
                 top: 5px;
                 left: 90px;
 } 
