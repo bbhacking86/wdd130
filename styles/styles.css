@@ -13,6 +13,9 @@ nav a {
     display: block; 
     padding: 20px;
 }
+nav a:hover {
+    color: rgb(74, 63, 162);
+}
 h1 {
     color: rgb(64, 224, 208);
     text-shadow: 1px 2px 1px rgb(74, 63, 162) 
@@ -22,6 +25,15 @@ p {
     padding: 0; 
     color: rgb(74, 63, 162); 
 }
+ a:link, nav a:visited {
+    color: rgb(255, 255, 255);
+ }
+ 
+ a:hover {
+color: rgb(64, 224, 208);
+ background-color: rgb(252, 244, 144);
+ }
+ 
 main {
     max-width: 960px; 
         }
@@ -36,17 +48,18 @@ main {
     
          .aside img {
             position: relative;
-            width: 200px;
+            width: 300px;
             height: auto;
-            }  
+            } 
+
          aside  h2 {
                 color: rgb(252, 244, 144);
                 position: absolute;
-                top: 385px;
+                top: 620px;
                 left: 150px;
             } 
 img {
-               width: 20rem;
+                 width: 12rem;
                 margin: 1rem;
                 border: 5px dotted rgb(252, 244, 144);
                 padding: 1rem;
@@ -54,22 +67,21 @@ img {
                 color: rgb(74, 63, 162);
                 text-align: center;
 }
-               
-p {
-padding: 0; 
-color: rgb(74, 63, 162); 
-}
+            
     
-/*Class Selectors
+/*Class Selectors*/
+
 .box {
+    color: rgb(64, 224, 208);
+    width: 70%;
     margin: 1rem;
     border: 5px solid rgb(252, 244, 144);
     padding: 1rem;
-    background-color: rgb(74, 63, 162);*/
+    background-color: rgb(74, 63, 162);
+}
 
 footer {
     text-align: center;
     margin-top: auto;
     border-top: 5px;
 }
-
