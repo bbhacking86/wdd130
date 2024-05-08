@@ -20,8 +20,8 @@
 
     --heading-font: Arial, Helvetica, sans-serif;
     
-    --@import url: ('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-    --paragraph-font:'var(--paragraph-font)', serif;
+    @import url: ('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+    font-family:"Oswald";  
     max-width: 960px;
     padding: 20px;
 
@@ -94,7 +94,7 @@ body {
     }
 
     h3.web-logo { 
-        font-family: gooddog, 'Bradley Hand', cursive;
+        font-family: gooddogregular, 'Bradley Hand', cursive;
         font-size: 50px;
         text-align: center;
         background-color: var(--secondary-color);

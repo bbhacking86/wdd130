@@ -1,0 +1,109 @@
+* {
+   margin: 15px;
+   padding: 10px; 
+}
+
+
+@font-face {
+    font-family: 'gooddogregular';
+    src: url('wwr/fonts/gooddog-webfont.woff2') format('woff2'),
+         url('/wwr/fonts/gooddog-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+:root { 
+    --primary-color: #5c7479;
+    --secondary-color: #c6d874;
+    --accent1-color: #fff8dbfd;
+    --accent2-color: #78e2bff1;
+    --accent3-color: #5f3535b7; 
+
+    --heading-font: Arial, Helvetica, sans-serif;
+    
+    --@import url:('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+    --paragraph-font:'var(--paragraph-font)', serif;
+    max-width: 960px;
+    padding: 20px;
+
+    --nav-background-color: var(--secondary-color);
+    --nav-link-color: var(--accent3-color);
+    --nav-hover-link-color: var(--accent3-color);
+    --nav-hover-background-color: var(--secondary-color);
+
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+ }
+ 
+ nav a:hover {
+   color: var(--nav-hover-link-color);
+ background-color: var(--nav-hover-background-color);
+ }
+
+h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color:#5f3535b7
+}
+
+
+body {
+    font-family: var(--paragraph-font);
+    color: var(--accent3-color);
+    margin: 10px; border: 30px solid var(--accent3-color);
+    max-width: 960px;
+    padding: 20px;  box-decoration-break: slice;
+    background-color: var(--primary-color);
+}
+    p {
+        font-family: var(--heading-font);
+        font-size: 15px;
+        text-align: center;
+        background-color: var(--accent1-color);
+        padding: 10px; border-style: unset; border: 5px solid var(--accent3-color);
+    }
+
+
+    /*Classes*/
+.hero div {
+        position: relative;
+        width: auto;
+        height: auto;
+    }
+.hero img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border: 2px solid var(--secondary-color);
+    }
+.hero h1 {
+    position: absolute;
+    top: 450px;
+    left: 300px;
+    color: var(--primary-color);
+    text-shadow: 1px 2px 1px var(--accent2-color);
+    font-size: 60px;
+    font-family: gooddog;
+}
+.hero article {
+    position: absolute;
+    top: 600px;
+    left: 300px;
+    width: 450px;
+    background: var(--accent1-color);
+    opacity: 0.7; 
+    padding: 1px; border-style: ridge; border: 1px solid var(--accent-color2);
+    
+}
+
+.hero article img {
+    position: absolute;
+    top: 50px;
+    left: 345px;
+    max-width: 80%;
+    background: var(--primary-color);
+    opacity: 1.0;
+}
