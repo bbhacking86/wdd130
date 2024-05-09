@@ -1,4 +1,4 @@
-@import url:('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
  @font-face {
     font-family: 'gooddogregular';
@@ -19,7 +19,7 @@
     --accent1-color: #fff8dbfd;
     --accent2-color: #78e2bff1;
     --accent3-color: #5f3535b7; 
-    --paragraph-font: "Oswald";
+    --paragraph-font: Oswald; Verdana;
     --heading-font: 'Arial-Black, Helvetica, sans-serif';
     --nav-background-color: var(--secondary-color);
     --nav-link-color: var(--accent3-color);
@@ -38,7 +38,6 @@ nav a:link, nav a:visited {
  }
 
 h2, h3, h4, h5, h6 {
-    font-family: 'Arial-Black, Helvetica, sans-serif';
     font-family: var(--heading-font);
     color:#5f3535b7
 }
@@ -54,7 +53,7 @@ body {
     background-color: var(--primary-color);
 }
     p {
-        font-family: var(--heading-font);
+        font-family: var(--paragraph-font);
         font-size: 15px;
         text-align: center;
         background-color: var(--accent1-color);
@@ -83,13 +82,16 @@ body {
     font-size: 60px;
     font-family: gooddog;
 }
+
+.hero p {
+    opacity: 0.6; 
+}
 .hero article {
     position: absolute;
     top: 600px;
     left: 300px;
     width: 450px;
     background: var(--accent1-color);
-    opacity: 0.7; 
     padding: 1px; border-style: ridge; border: 1px solid var(--accent-color2);
     
 }
