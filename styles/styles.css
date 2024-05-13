@@ -103,21 +103,26 @@ footer .grid {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     align-content: start;  
 }
 
 .main {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column: 5/7;  
+    grid-row: 1/7;
+}
 }
 
 main .box {
     display: grid;
-    grid-column: 2/2;  
-    grid-row: 2/3;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column: 5/7;  
+    grid-row: 4/6;
 }
 
 main .grid {
