@@ -4,21 +4,26 @@
     box-sizing: border-box;
 }
 
-nav{
+header {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+nav {
     background-color: rgb(64, 224, 208);
     padding: 10px; border: 5px dotted rgb(252, 244, 144);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 nav a {
     color: rgb(74, 63, 162);
     display: block; 
     padding: 20px;
+    text-decoration: none; 
 }
 nav a:hover {
     color: rgb(74, 63, 162);
-}
-h1 {
-    color: rgb(64, 224, 208);
-    text-shadow: 1px 2px 1px rgb(74, 63, 162) 
 }
 
 p {
@@ -34,54 +39,96 @@ color: rgb(64, 224, 208);
  background-color: rgb(252, 244, 144);
  }
  
-main {
-    max-width: 960px; 
+
+
+h1 {
+    color: rgb(64, 224, 208);
+    text-shadow: 1px 2px 1px rgb(74, 63, 162); 
+    border-bottom: 3px solid rgb(252, 244, 144);    
 }
+
 
 main img {
         float: right;
         height: auto;
         border: 10px dotted rgb(252, 244, 144);
         padding: 10px;
-        box-shadow: 0px 0px 5px rgb(252, 244, 144)
+        box-shadow: 0px 0px 5px rgb(252, 244, 144);
 }        
     
 aside  {
-            position: relative;
-            width: 200px;
-            height: auto;
+    position: relative;
+    height: auto; 
 } 
 
 aside h2 {
-                position: absolute; 
-                color: rgb(252, 244, 144);
-                top: 5px;
-                left: 90px;
+    position: absolute; 
+    color: rgb(74, 63, 163);
+    top: 14px;
+    left: 80px;
 } 
+
+
 img {
-                 width: 12rem;
-                margin: 1rem;
+                width: 12rem;
+                 margin: 1rem;
                 border: 5px dotted rgb(252, 244, 144);
                 padding: 1rem;
                 background-color: rgb(64, 224, 208);
                 color: rgb(74, 63, 162);
                 text-align: center;
 }
-            
-    
-/*Class Selectors*/
-
-.box {
-    color: rgb(64, 224, 208);
-    width: 70%;
-    margin: 1rem;
-    border: 5px solid rgb(252, 244, 144);
-    padding: 1rem;
-    background-color: rgb(74, 63, 162);
-}
 
 footer {
+    max-width: 840px;
+    margin: 0 auto;
     text-align: center;
     margin-top: auto;
     border-top: 5px;
+}
+
+    
+/*Class Selectors*/
+
+
+header .grid {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+footer .grid {
+    display: grid;
+    align-items: end;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-content: start;  
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+main .box {
+    display: grid;
+    grid-column: 2/2;  
+    grid-row: 2/3;
+}
+
+main .grid {
+    display: grid;
+     grid-column: 1/1;
+    grid-row: 1/1; 
+    align-items: start; 
+}
+aside .grid {    
+    padding: 1rem;
+    position: relative;
+    grid-column: -1/1;
+    grid-row: -1/1; 
 }
