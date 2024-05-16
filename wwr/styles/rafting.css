@@ -33,6 +33,7 @@ header {
 
 nav a:link, nav a:visited {
     color: var(--nav-link-color); 
+    text-decoration: none;
  }
  
  nav a:hover {
