@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+h1,
+label,
+footer,
+select,
+textarea {
+    font-family: Dosis;
+    font-size: 45px;
+    color: rgb(40, 48, 68);
+}
+
+legend, 
+input,
+button {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    color: rgb(235, 245, 238);
+    background-color: rgb(139, 120, 109);
+}
+
+input,
+select,
+textarea {
+    padding: 5rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+/* rgb(40, 48, 68)dark blue
+ebf5ee mint
+rgb(139, 120, 109) dark brown
+78a1bb lighter blue
+rgb(191, 168,158) khaki
+https://coolors.co/283044-78a1bb-ebf5ee-bfa89e-8b786d
+*/
+h1 {
+    margin: 20px; border-bottom: 10px solid  rgb(235, 245, 238);
+    padding: 10px;
+}
+
+body {
+    background-color: rgb(120, 161, 187);
+    margin: 325px; border: 10px solid rgb(40, 48, 68);
+}
+
+select,
+textarea {
+    color: rgb(235, 245, 238);
+    background-color: rgb(139, 120, 109);
+}
+
+form {
+    width: auto;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 5px solid rgb(235, 245, 238);
+    border-radius: .5rem;
+    background-color: rgb(191, 168, 158);
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+}
+
+.one fieldset {
+    margin: 5px; 
+    border: 5px solid rgb(120, 161, 187);
+    padding: 1rem;
+}
+
+.two fieldset {
+    margin: 10px; 
+    border: 10px solid rgb(120, 161, 187);
+    padding: 2rem;
+}
+
+legend {
+    padding: 2rem;
+    border: 10px solid rgb(235, 245, 238);
+}
+
+label {
+    text-align: right;
+    padding-right: 5rem;
+}
+
+input[type="checkbox"] {
+    width: 80px;
+    height: 80px;
+    /*MOVE BOX MOVE */
+}
+
+button {
+    margin: 10px;
+    border: 20px solid rgb(120, 161, 187);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+button:hover,
+button:focus {
+    background-color: rgb(120, 161, 187);
+    color: rgb(40, 48, 68);
+}
+
+footer {
+    margin: 20px;
+    width: 100%;
+    border-top: 10px solid  rgb(235, 245, 238);
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 100px;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 40px;
+}

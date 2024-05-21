@@ -1,0 +1,27 @@
+table {
+    border: 2px solid rgb(140 140 140);
+    font:
+      16px "Open Sans",
+      Helvetica,
+      Arial,
+      sans-serif;
+  }
+  
+  thead > tr,
+  tfoot > tr {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+
+
+  
+  th,
+  td {
+    border: 1px solid rgb(160 160 160);
+  }
+  caption {
+    caption-side:bottom;
+    padding-top: 10px;
+    font-weight: 700;
+    font-style: italic;
+  }
