@@ -1,9 +1,9 @@
-/* colors https://coolors.co/564138-2e86ab-f6f5ae-f5f749-f24236  
-rgb (86 65 56) brown
-rgb (46 134 171) blue
-rgb (246 246 174) yellow
-rgb (242 66 54) orange
-rgb (246, 245, 174) vanilla
+/* https://coolors.co/palette/d8e2dc-ffe5d9-ffcad4-f4acb7-9d8189  
+115, 89, 92
+244, 172, 183 dark pink
+216, 226, 220 green
+255, 229, 217 peach
+255, 202, 212 pink
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
@@ -13,18 +13,89 @@ rgb (246, 245, 174) vanilla
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(46, 134, 171);
 }
+
 
 h1 {
     text-align: center; 
     font-family: "Poetsen One";
-    color: rgb(86, 65, 56);
     font-size: 50px;
-    text-shadow: 1px 2px rgb(246, 246, 174);
+    text-shadow: 1px 2px rgb(216, 226, 220);
 }
 
 body {
-    margin: 352px; 
-    border: 10px solid rgb(246, 245, 174);
+    margin: 200px; 
+    border: 10px dotted rgb(244, 172, 183);
+    display: grid;
+    background-color: rgb(115, 89, 92);
+}
+
+input, textarea {
+    background-color: rgb(255, 202, 212);
+}
+legend {
+    font-family: "Poetsen One";
+    font-size: 40px;
+} 
+
+input,
+textarea,
+select,
+label {
+    font-size: 30px;
+    font-family: Montserrat;
+}
+
+button {
+    font-family: "Poetsen One";
+    font-size: 35px;
+    border: 5px dotted rgb(244, 172, 183);
+    background-color: rgb(216, 226, 220);
+    margin: 20px;
+    padding: 10px;
+}
+
+button:hover,
+button:focus {
+    background-color: rgb(255, 229, 217);
+    color: rgb(244, 172, 183);
+}
+
+footer {
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Classes */
+.quiz {
+    border: 3px dotted rgb(244, 172, 183)
+
+}
+
+.q1 {
+    border: 3px solid rgb(244, 172, 183);
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(216, 226, 220);
+}
+
+.q2 {
+    border: 10px double rgb(244, 172, 183 );
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(255, 229, 217);
+}
+
+.q3 {
+    border: 3px solid rgb(244, 172, 183 );
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(216, 226, 220);
+}
+
+.q4 {
+    border: 10px double rgb(244, 172, 183 );
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(255, 229, 217);
 }
