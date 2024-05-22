@@ -1,0 +1,30 @@
+/* colors https://coolors.co/564138-2e86ab-f6f5ae-f5f749-f24236  
+rgb (86 65 56) brown
+rgb (46 134 171) blue
+rgb (246 246 174) yellow
+rgb (242 66 54) orange
+rgb (246, 245, 174) vanilla
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poetsen+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(46, 134, 171);
+}
+
+h1 {
+    text-align: center; 
+    font-family: "Poetsen One";
+    color: rgb(86, 65, 56);
+    font-size: 50px;
+    text-shadow: 1px 2px rgb(246, 246, 174);
+}
+
+body {
+    margin: 352px; 
+    border: 10px solid rgb(246, 245, 174);
+}
