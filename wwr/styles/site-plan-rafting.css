@@ -23,7 +23,6 @@
     --nav-link-color: var(--accent3-color);
     --nav-hover-link-color: var(--accent3-color);
     --nav-hover-background-color: var(--secondary-color);
-
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -35,10 +34,11 @@ h1, h2, h3, h4, h5, h6 {
 body {
     font-family: var(--paragraph-font);
     content: var(--accent3-color);
-    margin: 10px; border: 30px solid var(--accent3-color);
+    margin: 10x; border: 30px solid var(--accent3-color);
     max-width: 960px;
     padding: 20px;  box-decoration-break: slice;
     background-color: var(--primary-color);
+    display: flex;
 }
     p {
         font-family: var(--paragraph-font);
@@ -47,6 +47,7 @@ body {
         padding: 25px; border-style: unset; border: 7px solid var(--accent2-color);
     }
     header {
+        display: grid;
         padding: 20px
     }
         
@@ -55,7 +56,8 @@ body {
             font-size: 126px;
             text-align: center;
             background-color: var(--secondary-color); 
-            max-width: 2000px;
+            width: 60px;
+            height: 100px;
             padding: 50px; border: 20px solid var(--accent2-color);
             margin-bottom: 50px;
             text-shadow: 3px 3px 1px var(--accent1-color);
@@ -87,7 +89,7 @@ body {
         padding: 20px; border: 7px solid var(--accent3-color);
     }
 
-    h3.web-logo { 
+    h3 .web-logo { 
         font-family: gooddogregular, 'Bradley Hand', cursive;
         font-size: 50px;
         text-align: center;
@@ -148,8 +150,6 @@ h6 {
 }
 
 
-
-
-
+/* article is absolute position causing word overlap*/
 
 

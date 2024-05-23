@@ -21,7 +21,6 @@
     --nav-link-color: var(--accent3-color);
     --nav-hover-link-color: var(--accent3-color);
     --nav-hover-background-color: var(--secondary-color);
-
 }
 
 header {
@@ -38,7 +37,7 @@ nav a:link, nav a:visited {
  
  nav a:hover {
    color: var(--nav-hover-link-color);
- background-color: var(--nav-hover-background-color);
+    background-color: var(--nav-hover-background-color);
  }
  
 
@@ -48,7 +47,6 @@ h2 {
     font-size: 45px;
     text-align: center;
     color:#5f3535b7
-     
 }
 
 body {
@@ -85,6 +83,7 @@ article img {
         max-width: 220px;
         margin: auto;
     }
+    
     /*Classes*/
 
 
@@ -149,3 +148,120 @@ article img {
     display: flex;
     justify-content: flex-end;
 }
+
+
+/*Contact Us Page Additions*/
+
+h3 {
+    margin: 0%;
+    text-align: center;
+    color: var(--accent3-color);
+    text-shadow: 1px 2px 1px var(--accent2-color);
+    font-size: 70px;
+    font-family: gooddog;
+   
+}
+
+h4 {
+    margin: 0%;
+    text-align: center;
+    color: var(--accent3-color);
+    text-shadow: 1px 2px 1px var(--accent2-color);
+    font-size: 50px;
+    font-family: gooddog;
+    
+    
+}
+
+.grid {
+    margin: 0%;
+    display: grid;
+}
+.team {
+    display: grid;
+    background: var(--accent1-color);
+    padding: 20px; border-style: ridge; border: 10px solid var(--accent3-color); 
+}
+
+.phonedatemail {
+    justify-content: center;
+    align-items: center;
+    /*put space inbetween boxes */
+}
+.phone {
+width: 400px;
+height: 200px;
+font-size: 40px;
+margin: 50px;
+}
+
+.email {
+    width: 474px;
+    height: 200px;
+    font-size: 35px;
+    margin: 50px;
+    /*fix overflow */
+}
+
+
+.mapdatchicken {
+    display: flex;
+    margin: auto;
+    background: var(--accent1-color);
+    padding: 20px; border-style: ridge; border: 10px solid var(--accent3-color); 
+}
+
+.chicken {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 40px;
+}
+
+.map {
+    padding: 5%; border: none;    
+}
+
+.happyteam {
+    font-family: gooddog;
+    font-size: 80px;
+   
+    justify-content: center;
+    align-content: center;
+}
+
+div {
+    display: flex
+}
+
+/*Inquires
+    --primary-color: #5c7479;
+    --secondary-color: #c6d874;
+    --accent1-color: #fff8dbfd;
+    --accent2-color: #78e2bff1;
+    --accent3-color: #5f3535b7; */
+
+    form {
+        margin: 200px; border: 10px solid #c6d874;
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    legend {
+        font-size: 60px;
+    }
+
+    input,
+    select,
+    textarea,
+    option {
+        background-color: var(--accent1-color);
+    }
+
+    button {
+        color:var(--accent3-color);
+        font-size: 50px;
+        font-family: gooddog;
+        background-color: var(--accent1-color);
+        border: 10px double #c6d874;
+    }
