@@ -61,7 +61,7 @@ article img {
             float: right;
             position: absolute;
             top: 500px;
-            left: 1170px;
+            left: 1400px;
             max-width: 200px;
             max-height: 180px;
             z-index: 1;
@@ -76,12 +76,13 @@ article img {
     }
     
     figure {
-        border: 10px var(--accent2-color) solid;
+        border: 5px var(--accent3-color) solid;
         display: flex;
         flex-flow: column;
         padding: 1px;
-        max-width: 220px;
+        max-width: 350px;
         margin: auto;
+        background-color: var(--accent2-color);
     }
     
     /*Classes*/
@@ -102,7 +103,7 @@ article img {
 .hero h1 {
     position: absolute;
     top: 475px;
-    left: 650px;
+    left: 850px;
     color: var(--accent3-color);
     text-shadow: 1px 2px 1px var(--accent2-color);
     font-size: 70px;
@@ -118,7 +119,7 @@ article img {
     font-size: 30px;
     position: absolute;
     top: 600px;
-    left: 190px;
+    left: 390px;
     width: 1399px;
     height: 250px;
     background: var(--accent1-color);
@@ -134,9 +135,9 @@ article img {
 }
 
 .caption {
-    background-color: var(--primary-color);
-    color: var(--accent1-color);
-    font: italic smaller sans-seriff;
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    font: italic medium sans-seriff;
     padding: 10px;
     text-align: center;
     display: flex;
@@ -160,6 +161,9 @@ h1 {
     font-size: 70px;
     font-family: gooddog;
    
+}
+h2 {
+    color: var(--secondary-color);
 }
 
 h3 {
@@ -243,7 +247,7 @@ div {
 }
 
 .happy {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-size: 20px;
     text-align: center;
 }
@@ -266,6 +270,7 @@ div {
     }
     label {
         color: var(--accent1-color);
+        font-size: 30px;
     }
     input,
     select,
