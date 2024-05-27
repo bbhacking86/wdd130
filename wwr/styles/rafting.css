@@ -287,3 +287,37 @@ div {
         background-color: var(--secondary-color);
         border: 10px double var(--accent1-color);
     }
+
+    /*trips page*/
+    .grid {
+        margin: 0%;
+        display: grid;
+        align-content: center;
+        justify-content: center;
+    }
+    .trip {
+        display: grid; 
+        max-width: fit-content;
+        background: var(--accent1-color);
+        padding: 80px; border-style: ridge; border: 50px solid var(--accent3-color); 
+    }
+    
+    .trip p {
+        font-size: 60px;
+        font-family: gooddog;
+    }
+.here {
+font-size: 40px;
+
+}
+
+h5 {
+    color: var(--accent1-color);
+    font-size: 40px;
+    margin-bottom: 50px; border-top: 20px solid var(--secondary-color);
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+
