@@ -99,8 +99,6 @@ article img {
 .hero img {
     margin: 0%;
     display: grid;
-    width: 960px;
-    height: 600px;
     margin: 20px;  
     border: 15px solid var(--secondary-color); 
 }
