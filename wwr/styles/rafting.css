@@ -8,7 +8,7 @@
     font-style: normal;
  }
 
- 
+  
 :root { 
     --primary-color: #404f54;
     --secondary-color: #c6d874;
@@ -340,6 +340,7 @@ h5 {
 
 /*Home Page*/
 .homeless {
+   margin: 0%;
     display: grid;
     grid-template-columns: 30% 30%;
     grid-template-rows: 30% 30% 30% 30%;
