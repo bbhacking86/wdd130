@@ -62,7 +62,7 @@ article img {
             float: right;
             position: absolute;
             top: 615px;
-            left: 1565px;
+            left: 1360px;
             max-width: 200px;
             max-height: 180px;
             z-index: 1;
@@ -98,7 +98,7 @@ article img {
     }
 .hero img {
     display: grid;
-    width: 100px;
+    width: 960px;
     height: 600px;
     margin: 20px;  
     border: 15px solid var(--secondary-color); 
@@ -106,7 +106,7 @@ article img {
 .hero h1 {
     position: absolute;
     top: 400px;
-    left: 750px;
+    left: 250px;
     color: var(--accent3-color);
     text-shadow: 1px 2px 1px var(--accent2-color);
     font-size: 70px;
@@ -122,7 +122,7 @@ article img {
     font-size: 30px;
     position: absolute;
     top: 550px;
-    left: 400px;
+    left: 200px;
     width: 1399px;
     height: 250px;
     background: var(--accent1-color);
@@ -223,8 +223,8 @@ h4 {
 
 .email {
     position: absolute;
-    top: 490px;
-    left: 1400px;
+    top: 530px;
+    left: 850px;
     width: 474px;
     height: 175px;
     font-size: 35px;
