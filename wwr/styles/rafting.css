@@ -97,6 +97,7 @@ article img {
         height: auto;
     }
 .hero img {
+    margin: 0%;
     display: grid;
     width: 960px;
     height: 600px;
