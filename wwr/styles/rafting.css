@@ -127,6 +127,7 @@ article img {
     height: 250px;
     background: var(--accent1-color);
     padding: 2px; border-style: ridge; border: 10px solid var(--accent3-color); 
+    color: var(--accent3-color)
     
 }
 
