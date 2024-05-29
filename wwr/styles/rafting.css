@@ -43,6 +43,7 @@ nav a:link, nav a:visited {
 
 
 h2 {
+    display: grid;
     font-family: var(--heading-font);
     font-size: 45px;
     text-align: center;
@@ -50,7 +51,7 @@ h2 {
 }
 
 body {
-    position: relative;
+   display: grid;
     font-family: Oswald;
     font-family: var(--paragraph-font);
     color: var(--accent3-color);
@@ -60,14 +61,15 @@ body {
 article img {
             float: right;
             position: absolute;
-            top: 500px;
-            left: 1400px;
+            top: 615px;
+            left: 1565px;
             max-width: 200px;
             max-height: 180px;
             z-index: 1;
         }
         
     p {
+        display: grid;
         font-family: var(--paragraph-font);
         font-size: 20px;
         text-align: center;
@@ -76,7 +78,7 @@ article img {
     }
     
     figure {
-        border: 5px var(--accent3-color) solid;
+        border: 10px var(--accent3-color) solid;
         display: flex;
         flex-flow: column;
         padding: 1px;
@@ -95,15 +97,16 @@ article img {
         height: auto;
     }
 .hero img {
-    display: block;
-    width: 1400px;
+    display: grid;
+    width: 2000px;
     height: 600px;
-    margin: 200px   
+    margin: 20px;  
+    border: 15px solid var(--secondary-color); 
 }
 .hero h1 {
     position: absolute;
-    top: 475px;
-    left: 850px;
+    top: 400px;
+    left: 750px;
     color: var(--accent3-color);
     text-shadow: 1px 2px 1px var(--accent2-color);
     font-size: 70px;
@@ -118,8 +121,8 @@ article img {
     opacity: 0.7; 
     font-size: 30px;
     position: absolute;
-    top: 600px;
-    left: 390px;
+    top: 550px;
+    left: 400px;
     width: 1399px;
     height: 250px;
     background: var(--accent1-color);
@@ -164,7 +167,13 @@ h1 {
 }
 h2 {
     color: var(--secondary-color);
+    display: grid;
+    grid-template-columns: unset;
+    grid-template-rows: unset;
+    align-items: center;
+    justify-content: center;
 }
+
 
 h3 {
     margin: 0%;
@@ -199,20 +208,26 @@ h4 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    ;
-}
-.phone {
-width: 400px;
-height: 175px;
-font-size: 35px;
-margin: 50px;
+
 }
 
+
+.phone {
+    width: 370px;
+    height: 175px;
+    font-size: 32px;
+    margin: 100px;
+}
+
+
 .email {
+    position: absolute;
+    top: 490px;
+    left: 1400px;
     width: 474px;
     height: 175px;
     font-size: 35px;
-    margin: 50px;
+    margin: 100px;
 }
 
 
@@ -242,11 +257,9 @@ margin: 50px;
     align-content: center;
 }
 
-div {
-    display: flex
-}
 
 .happy {
+    display: flex;
     color: var(--primary-color);
     font-size: 20px;
     text-align: center;
@@ -324,5 +337,76 @@ h5 {
     padding-top: 100px;
 }
 
+/*Home Page*/
+.homeless {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-template-rows: 30% 30% 30% 30%;
+    grid-column-gap: 300px;
+    align-content: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.homeless img {
+  border: 50px solid var(--accent2-color);
+}
 
+.homie {
+    display: grid;
+    grid-row-start: 2;
+    grid-row-end: span 2;
+    font-size: 70px;
+    font-family: gooddog;
+    align-items: center;
+    justify-items: center;
+    border: 40px solid var(--accent3-color);
+}
 
+.homie1 {
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    font-family: gooddog;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+
+    border: 40px solid var(--accent3-color);
+}
+
+.homie2 {
+    display: grid;
+    grid-column: 2;
+    grid-row-start: 3;
+    grid-row-end: span 4;
+    font-family: gooddog;
+    font-size: 50px;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 30%;
+    border: 40px solid var(--accent3-color);
+}
+
+h6 {
+    border: 20px solid var(--accent2-color);
+    font-size: 30px;
+    color: var(--primary-color);
+    background-color: var(--accent1-color);
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.homie3 {
+    margin: auto;
+    padding: 1%;
+    width: 1000px;
+}
+
+input {
+    width: 400px;
+    height: 50px;
+    color: var(--primary-color);
+    font-size: 30px;
+    background-color: var(--accent1-color);
+}
