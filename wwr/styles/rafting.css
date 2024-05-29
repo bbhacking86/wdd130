@@ -98,7 +98,7 @@ article img {
     }
 .hero img {
     display: grid;
-    width: 2000px;
+    width: 960px;
     height: 600px;
     margin: 20px;  
     border: 15px solid var(--secondary-color); 
